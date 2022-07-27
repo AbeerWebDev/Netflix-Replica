@@ -14,7 +14,7 @@ Link to project deployed with netlify. Live demo [here](https://abeers-netflix.
 * Contact
 
 ## General Information
-I created this Netflix replica app that shows a register page, a login page, a home page, and a watch page. This project uses react-routing, MUI, react hooks such as: useRef/useState, and SCSS.
+I created this Netflix replica app that shows a register page, a login page, a home page, and a watch page. This project uses react-routing, MUI, SCSS and react hooks such as: useRef/useState.
 
 ### Purpose of this project
 To practice web design and routing.
