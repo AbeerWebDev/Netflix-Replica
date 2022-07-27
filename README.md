@@ -14,7 +14,7 @@ Link to project deployed with netlify. Live demo [here](https://abeers-netflix.
 * Contact
 
 ## General Information
-I created this administration panel that shows user profiles, products, and user transactions. This project uses react-routing, react hooks such as: useContext/useState/useReducer, and SCSS.
+I created this Netflix replica app that shows a register page, a login page, a home page, and a watch page. This project uses react-routing, MUI, react hooks such as: useRef/useState, and SCSS.
 
 ### Purpose of this project
 To practice web design and routing.
@@ -26,35 +26,31 @@ To practice web design and routing.
 * JavaScript
 * Material UI
 * React Hooks
-* Rechart
 * Webkit
 
 ## Features
 * React-routing.
-* A Home page.
+* A Register page. 
 * A Login page => to access add: /login
-* A users page => to access add: /users
-* A user profile page => to access add: /users/any id e.g. 123
-* Add new user page => to access add: /users/new
-* Add new product page => to access add: /productss/new
-* A dynamic logo button.
-* A dynamic dark/light mode button.
-* A dynamic add new user button.
-* A dynamic upload image button.
-* A dynamic delete user button.
+* A Home page => to access add: /login/any id e.g. 123
+* A watch page => to access add: /login/any id e.g. 123/watch
+* A dynamic Start button in Register page.
 
 ## Screenshot
-Home Page - Light Mode
-![project screenshot](home-light-mode.png)
+Register Page
+![project screenshot](register.png)
 
-Home Page - Dark Mode
-![project screenshot](home-dark-mode.png)
+Login Page
+![project screenshot](login.png)
 
-Users Page - Light Mode
-![project screenshot](users-page-light-mode.png)
+Home Page
+![project screenshot](home.png)
 
-Add New Product Page - Light Mode
-![project screenshot](add-new-product-light-mode.png)
+Home Page (Scrolled)
+![project screenshot](home-scrolled.png)
+
+Watch Page - Light Mode
+![project screenshot](watch.png)
 
 ## Installation and Setup Instructions
 
@@ -78,44 +74,37 @@ To Visit App:
 
 ## Usage
 
-**Dynamic Logo**
+**Register Page**
 
-* The Logo will always direct you to the home page.
+* The register page mimics that of the original Netflix website.
 
-**Dark/Light Mode**
+**Register Page Start Button**
 
-* The dark/light mode buttons in both the side bar and the navigation bar will toggle between the two theme options.
+* Once the user enters their email or phone number they will be propmted to enter their password.
 
-**Dynamic Users Button**
+**Login Page**
 
-* The users button present in the sidebar will take you to a page with a users list.
+* The login page mimics that of the original Netflix website.
 
-**Dynamic Products Button**
+**Home Page**
 
-* The products button present in the sidebar will take you to a page with a products list, this could be confirmed by checking the URL.
+* The home page mimics that of the original Netflix website. Hovering your mouse over the movie cards will play the movie trailer as well as show the movie information.
+
+**Watch Page**
+
+* The watch page mimics that of the original Netflix website, and carries the video player.
 
 **URL Routing**
 
 * To access all website pages look URL extensions in features.
-
-**Dynamic Add New User Button**
-
-* The add new user button present above the users list will allow you to add new users.
-
-**Dynamic Delete User Button**
-
-* The delete user button will delete the user's information from the users table.
-
-**Single User Profile**
-
-* By adding any ID to the URL from the users page (e.g. /users/123) you will be directed to a single user profile.
 
 ## Project Status
 Project is: Completed
 
 ## Room for Improvement
 * Make all buttons dynamic.
-* Add authentication page.
+* Add authentication page. 
+* Add styling to the composite layer to prevent the trailer from lagging. (see article [here](https://medium.com/outsystems-experts/how-to-achieve-60-fps-animations-with-css3-db7b98610108)
 
 ## Acknowledgements
 * Many thanks to LamaDev.
