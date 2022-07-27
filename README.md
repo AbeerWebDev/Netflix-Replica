@@ -104,7 +104,7 @@ Project is: Completed
 ## Room for Improvement
 * Make all buttons dynamic.
 * Add authentication page. 
-* Add styling to the composite layer to prevent the trailer from lagging. (see article [here](https://medium.com/outsystems-experts/how-to-achieve-60-fps-animations-with-css3-db7b98610108)
+* Add styling to the composite layer to prevent the trailer from lagging. (see article [here](https://medium.com/outsystems-experts/how-to-achieve-60-fps-animations-with-css3-db7b98610108))
 
 ## Acknowledgements
 * Many thanks to LamaDev.
