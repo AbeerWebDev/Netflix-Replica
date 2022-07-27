@@ -49,7 +49,7 @@ Home Page
 Home Page (Scrolled)
 ![project screenshot](home-scrolled.png)
 
-Watch Page - Light Mode
+Watch Page
 ![project screenshot](watch.png)
 
 ## Installation and Setup Instructions
