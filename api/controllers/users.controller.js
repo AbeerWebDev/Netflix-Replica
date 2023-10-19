@@ -3,8 +3,7 @@ import bcrypt from 'bcrypt'
 
 export const updateUser = async (req, res, next) => {
   try {
-    const user = await User.findById(req.params.id)
-    if (req.payload.id !== user._id.toString()) {
+    if (req.payload.id !== req.params.id) {
       return res.status(403).send("Wrong password or username!");
     }
     if (!req.isAdmin) return res.status(403).send("You are not authorized!")
@@ -16,6 +15,20 @@ export const updateUser = async (req, res, next) => {
     const updatedUser = await User.findByIdAndUpdate(req.params.id, {$set: req.body}, {new: true})
     res.status(201).send(updatedUser)
   } catch (err) {
-    console.log(err);
+    res.status(403).send("You can update your account only!")
+  }
+};
+
+export const deleteUser = async (req, res, next) => {
+  try {
+    if (req.payload.id !== req.params.id) {
+      return res.status(403).send("Wrong password or username!");
+    }
+    if (!req.isAdmin) return res.status(403).send("You are not authorized!")
+
+    await User.findByIdAndDelete(req.params.id)
+    res.status(201).send("User has been deleted!")
+  } catch (err) {
+    res.status(403).send("You can delete your account only!");
   }
 };
