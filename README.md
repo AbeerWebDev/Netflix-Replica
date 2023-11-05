@@ -107,7 +107,7 @@ Project is: Completed
 * Add styling to the composite layer to prevent the trailer from lagging. (see article [here](https://medium.com/outsystems-experts/how-to-achieve-60-fps-animations-with-css3-db7b98610108))
 
 ## Acknowledgements
-* Many thanks to LamaDev.
+* Many thanks to the React community.
 
 ## Contact
 Created by Abeer Ahmed [LinkedIn profile](https://www.linkedin.com/in/abeerdev/) - feel free to contact me.
